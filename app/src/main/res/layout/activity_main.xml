@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            tools:ignore="UselessLeaf" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hi Greggy! What would \nyou like to drink"
+                android:textSize="25sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            tools:ignore="UselessLeaf" >
+
+            <androidx.appcompat.widget.SearchView
+                android:queryHint="hint"
+                android:iconifiedByDefault="false"
+                android:layout_margin="0dp"
+                app:queryHint="Search drinks..."
+                app:defaultQueryHint="Search drinks..."
+                android:autofillHints="Search drinks..."
+                android:background="#F6F6F6"
+                android:elevation="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/pilih1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:layout_margin="20dp"
+                        android:src="@drawable/cocktail2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#44A0B3"
+                    android:layout_weight="1"
+                    android:text="Cocktail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/color4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:layout_margin="20dp"
+                        android:src="@drawable/smoothie11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="#44A0B3"
+                    android:layout_weight="1"
+                    android:text="Madu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/color4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:layout_margin="20dp"
+                        android:src="@drawable/coffee1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="#44A0B3"
+                    android:layout_weight="1"
+                    android:text="Teh Hijau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/color4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:layout_margin="20dp"
+                        android:src="@drawable/milkshake1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="ContentDescription" />
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textColor="#44A0B3"
+                    android:layout_weight="1"
+                    android:text="Lemon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:background="@drawable/color1"
+                android:id="@+id/rush"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+                <LinearLayout
+                    android:padding="1dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:layout_margin="0dp"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/smoothie11"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        tools:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_marginTop="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#1b4d9a"
+                                android:text="Ginger Rush"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#1b4d9a"
+                                android:text="Rp. 25.000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/color4"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp">
+
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:src="@drawable/add"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                tools:ignore="UselessLeaf" />
+            <LinearLayout
+                android:background="@drawable/color1"
+                android:id="@+id/relax"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+                <LinearLayout
+                    android:layout_margin="1dp"
+                    android:padding="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    tools:ignore="NestedWeights">
+
+                    <ImageView
+                        android:scaleType="centerCrop"
+                        android:layout_margin="0dp"
+                        android:background="@drawable/smoothie11"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        tools:ignore="ContentDescription" />
+
+                    <LinearLayout
+                        android:layout_marginTop="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#1b4d9a"
+                                android:text="Relax Green"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textStyle="bold"
+                                android:textColor="#1b4d9a"
+                                android:text="Rp. 25.000"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                tools:ignore="HardcodedText" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:background="@drawable/color4"
+                            android:layout_width="90dp"
+                            android:layout_height="40dp">
+
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:src="@drawable/add"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                tools:ignore="ContentDescription" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#121212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recommended!"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See All"
+                tools:ignore="HardcodedText,KeyboardInaccessibleWidget,RtlHardcoded" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:background="@drawable/color1"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
+
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="5dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/smoothie11"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textColor="#1b4d9a"
+                            android:text="Ginger Rush"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textColor="#1b4d9a"
+                            android:text="Rp. 25.000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/color4"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="ContentDescription" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="#F1F3F6"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                tools:ignore="UselessLeaf" />
+
+            <LinearLayout
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:elevation="5dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                tools:ignore="NestedWeights">
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/smoothie11"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textColor="#1b4d9a"
+                            android:text="Ginger Rush"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textColor="#1b4d9a"
+                            android:text="Rp. 25.000"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:background="@drawable/color4"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:ignore="ContentDescription" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
