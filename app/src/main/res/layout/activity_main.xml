@@ -241,9 +241,10 @@
                     tools:ignore="NestedWeights">
 
                     <ImageView
+                        android:id="@+id/image1"
                         android:layout_margin="0dp"
+                        android:background="@drawable/add"
                         android:scaleType="centerCrop"
-                        android:background="@drawable/smoothie11"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         tools:ignore="ContentDescription" />
@@ -262,7 +263,7 @@
                             <TextView
                                 android:layout_weight="1"
                                 android:textStyle="bold"
-                                android:textColor="#1b4d9a"
+                                android:textColor="#121212"
                                 android:text="Ginger Rush"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -271,7 +272,7 @@
                             <TextView
                                 android:layout_weight="1"
                                 android:textStyle="bold"
-                                android:textColor="#1b4d9a"
+                                android:textColor="#4B9CAF"
                                 android:text="Rp. 25.000"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -325,9 +326,10 @@
                     tools:ignore="NestedWeights">
 
                     <ImageView
+                        android:id="@+id/image2"
                         android:scaleType="centerCrop"
                         android:layout_margin="0dp"
-                        android:background="@drawable/smoothie11"
+                        android:background="@drawable/add"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         tools:ignore="ContentDescription" />
@@ -346,7 +348,7 @@
                             <TextView
                                 android:layout_weight="1"
                                 android:textStyle="bold"
-                                android:textColor="#1b4d9a"
+                                android:textColor="#121212"
                                 android:text="Relax Green"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -355,7 +357,7 @@
                             <TextView
                                 android:layout_weight="1"
                                 android:textStyle="bold"
-                                android:textColor="#1b4d9a"
+                                android:textColor="#4B9CAF"
                                 android:text="Rp. 25.000"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -419,7 +421,6 @@
         tools:ignore="DisableBaselineAlignment">
 
         <LinearLayout
-            android:background="@drawable/color1"
             android:layout_weight="1"
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -427,9 +428,9 @@
             tools:ignore="KeyboardInaccessibleWidget,UnusedAttribute">
 
             <LinearLayout
+                android:background="@drawable/color1"
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:elevation="5dp"
                 android:layout_weight="1"
                 android:padding="1dp"
                 android:orientation="horizontal"
@@ -438,10 +439,12 @@
                 tools:ignore="NestedWeights">
 
                 <ImageView
+                    android:id="@+id/image3"
                     android:layout_weight="1"
                     android:layout_margin="0dp"
-                    android:background="@drawable/smoothie11"
-                    android:layout_width="60dp"
+                    android:background="@drawable/add"
+                    android:scaleType="centerCrop"
+                    android:layout_width="100dp"
                     android:layout_height="50dp"
                     tools:ignore="ContentDescription" />
 
@@ -453,6 +456,7 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
+                        android:layout_marginLeft="30dp"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -460,7 +464,7 @@
                         <TextView
                             android:layout_weight="1"
                             android:textStyle="bold"
-                            android:textColor="#1b4d9a"
+                            android:textColor="#121212"
                             android:text="Ginger Rush"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -469,7 +473,7 @@
                         <TextView
                             android:layout_weight="1"
                             android:textStyle="bold"
-                            android:textColor="#1b4d9a"
+                            android:textColor="#4B9CAF"
                             android:text="Rp. 25.000"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -496,15 +500,14 @@
             </LinearLayout>
 
             <RelativeLayout
-                android:background="#F1F3F6"
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
+                android:layout_height="5dp"
                 tools:ignore="UselessLeaf" />
 
             <LinearLayout
+                android:background="@drawable/color1"
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                android:elevation="5dp"
                 android:layout_weight="1"
                 android:padding="1dp"
                 android:orientation="horizontal"
@@ -513,10 +516,12 @@
                 tools:ignore="NestedWeights">
 
                 <ImageView
+                    android:id="@+id/image4"
                     android:layout_weight="1"
                     android:layout_margin="0dp"
-                    android:background="@drawable/smoothie11"
-                    android:layout_width="60dp"
+                    android:background="@drawable/add"
+                    android:scaleType="centerCrop"
+                    android:layout_width="100dp"
                     android:layout_height="50dp"
                     tools:ignore="ContentDescription" />
 
@@ -528,6 +533,7 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
+                        android:layout_marginLeft="30dp"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -535,7 +541,7 @@
                         <TextView
                             android:layout_weight="1"
                             android:textStyle="bold"
-                            android:textColor="#1b4d9a"
+                            android:textColor="#121212"
                             android:text="Ginger Rush"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -544,7 +550,7 @@
                         <TextView
                             android:layout_weight="1"
                             android:textStyle="bold"
-                            android:textColor="#1b4d9a"
+                            android:textColor="#4B9CAF"
                             android:text="Rp. 25.000"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
